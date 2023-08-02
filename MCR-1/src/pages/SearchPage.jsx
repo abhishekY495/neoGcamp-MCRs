@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 import { BooksDataContext } from "../contexts/BooksDataContext";
 import SingleBook from "../components/SingleBook";
+import backArrowIcon from "../assets/back-arrow.svg";
 
 const SearchPage = () => {
   const {
@@ -31,11 +32,7 @@ const SearchPage = () => {
           to="/"
           className="absolute left-8 max-[900px]:relative max-[900px]:left-2"
         >
-          <img
-            src="https://img.icons8.com/?size=24&id=Vx1me1UNJFr6&format=svg"
-            alt="back arrow"
-            className="w-12"
-          />
+          <img src={backArrowIcon} alt="back arrow" className="w-12" />
         </Link>
         <input
           type="text"
