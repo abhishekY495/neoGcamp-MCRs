@@ -13,3 +13,5 @@ MCR-5 → https://neogcamp-mcr-5.netlify.app
 MCR-6 → https://neogcamp-mcr-6.netlify.app
 
 MCR-7 → https://neogcamp-mcr-7.netlify.app
+
+MCR-8 → https://neogcamp-mcr-8.netlify.app
